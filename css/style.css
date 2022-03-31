@@ -137,3 +137,42 @@ ul li a{
     width: 100%;
 }
 
+
+/* corpo */
+
+/* piano offerte */
+
+   /* checkbox */
+
+#offerts .container-center{
+    padding-top: 150px;
+}
+
+#offerts .checkbox{
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+
+   /* colonne */
+    
+#offerts .row .column{
+    float: left;
+    width: 28%;
+    /* margin-left: 8%; */
+    height: 500px;
+    background-color: yellow;
+
+}
+
+#offerts .row .column.cen{
+    margin-left: 8%;
+}
+
+#offerts .row .column.dx{
+    margin-left: 8%;
+}
+
+
+
+
