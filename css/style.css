@@ -125,4 +125,15 @@ ul li a{
 }
 
 
+#jumbo .col-dx-jumbo{
+    float: left;
+    width: 60%;
+    padding-top: 40px;
+   object-fit: cover;
+    
+}
+
+#jumbo img{
+    width: 100%;
+}
 
