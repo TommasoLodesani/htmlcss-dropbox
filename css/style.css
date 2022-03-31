@@ -14,3 +14,76 @@ body{
     clear: both;
     
 }
+
+.container-center{
+    width: 80%;
+    margin: auto;
+    max-width: 1180px;
+
+}
+
+/* header */
+
+
+
+header{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    position: fixed;
+    z-index: 1000;
+
+    /* debug */
+    /* background-color: red; */
+}
+
+
+header .logo{
+    float: left;
+    padding-left: 10px;
+   
+}
+
+.logo img{
+    vertical-align: middle;
+}
+
+.main-nav.sx{
+    float: left;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    display: inline;
+    vertical-align: middle;
+    padding-left: 30px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+.main-nav.dx{
+    float: right;
+    padding-right: 10px;
+}
+
+.btn{
+    color: white;
+    padding: 4px 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn.blue{
+    background-color: #52a3f2;
+}
+
+
+
