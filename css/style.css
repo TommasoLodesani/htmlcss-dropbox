@@ -52,18 +52,18 @@ header .logo{
     float: left;
 }
 
-ul{
+header ul{
     list-style-type: none;
 }
 
-ul li{
+header ul li{
     display: inline;
     vertical-align: middle;
     padding-left: 30px;
 
 }
 
-ul li a{
+header ul li a{
     text-decoration: none;
     font-size: 15px;
 
@@ -173,10 +173,45 @@ ul li a{
     margin-left: 8%;
 }
 
-#offerts .title-col{
+.row .title-col{
     text-align: center;
     padding: 5px 0;
+    border: solid 1px black;
 }
+
+
+.row .header-col{
+    padding: 30px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+.row .header-col h5{
+    padding: 10px 0;
+}
+
+.row .header-col span{
+    font-size: 15px;
+    color: #84919b;
+}
+
+.row .list-col ul{
+    padding: 30px;
+    font-size: 15px;
+    list-style-type: none;
+}
+
+.row .list-col ul li{
+    padding: 5px 0;
+}
+
+
+
+
+
+
 
 
 
