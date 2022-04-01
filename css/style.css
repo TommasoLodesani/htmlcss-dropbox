@@ -242,7 +242,7 @@ h3{
 }
 
 #offerts .row .btn-col .btn.blue{
-    padding: 6px 43px;
+    /* padding: 6px 37px; */
 
 }
 
@@ -308,7 +308,7 @@ h3{
 }
 
 #entreprise .col-dx .btn.blue{
-    padding: 6px 43px;
+    padding: 6px 37px;
 
 }
 
@@ -462,7 +462,7 @@ h3{
     text-align: right;
 }
 
-#porta-drop .btn.white{
+#porta-drop .btn.white.large{
     border: none;
     padding: 4px 45px;
     font-weight: 500;
@@ -512,8 +512,10 @@ h3{
 
 #faq .col-dx i{
     padding: 35px 0;
+    color: black;
 
 }
+
 
 /* footer */
 
@@ -555,6 +557,13 @@ footer .col ul li{
     font-size: 12px;
 }
 
+footer .col ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
 
 
 footer .col.last{
@@ -573,6 +582,11 @@ footer .bottom-footer span{
     color: #717171;
     font-size: 12px;
 }
+
+footer .bottom-footer span a{
+    color: #717171;
+}
+
 
 
 
