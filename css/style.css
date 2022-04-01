@@ -160,8 +160,14 @@ header ul li a{
     padding-bottom: 80px;
 }
 
-#offerts h2{
-    font-size: 40px;
+
+ /* STILE H */
+h2{
+    font-size: 35px;
+}
+
+h3{
+    font-size: 20px;
 }
 
 
@@ -206,9 +212,7 @@ header ul li a{
     padding: 30px;
 }
 
-h3{
-    font-size: 25px;
-}
+
 
 #offerts .row .header-col h5{
     margin-top: 10px;
@@ -310,6 +314,10 @@ h3{
 
 /* section partner */
 
+#partner{
+    margin-bottom: 40px;
+}
+
 #partner .col-sx{
     float: left;
     width: 50%;
@@ -342,6 +350,59 @@ h3{
     margin-top: 20px;
 
 }
+
+/* operazioni */
+
+#operazioni{
+    margin-bottom: 40px;
+
+}
+
+#operazioni h2{
+    margin-bottom: 40px;
+}
+
+#operazioni .col-sx{
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+    height: 100px;
+    
+    /* background-color: green; */
+
+}
+
+#operazioni .col-cen{
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+
+    height: 100px;
+    background-color: yellow;
+
+}
+
+#operazioni .col-dx{
+    float: left;
+    width: 30%;
+
+    height: 100px;
+    background-color: red;
+
+}
+
+#operazioni .col-sx .img-opera{
+    object-fit: cover;
+    width: 100%;
+    height: 100px;
+}
+
+#operazioni .col-sx .img{
+    width: 100%;
+    
+}
+
+
 
 
 
