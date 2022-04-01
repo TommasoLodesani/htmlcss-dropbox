@@ -408,6 +408,22 @@ h3{
     
 }
 
+/* sezione tems */
+
+#team{
+    margin-bottom: 40px;
+}
+
+#team h2{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+
+#team .link-team{
+    color: #0061ff;
+}
+
 
 
 
