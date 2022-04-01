@@ -358,49 +358,57 @@ h3{
 
 }
 
+#operazioni .row{
+    margin-bottom: 80px;
+}
+
+
 #operazioni h2{
     margin-bottom: 40px;
 }
 
 #operazioni .col-sx{
     float: left;
-    width: 30%;
-    margin-right: 5%;
-    height: 100px;
-    
+    width: 28%;
+    margin-right: 8%;
+    /* height: 100px; */
+
     /* background-color: green; */
 
 }
 
 #operazioni .col-cen{
     float: left;
-    width: 30%;
-    margin-right: 5%;
+    width: 28%;
+    margin-right: 8%;
 
-    height: 100px;
-    background-color: yellow;
+    /* height: 100px; */
+    /* background-color: yellow; */
 
 }
 
 #operazioni .col-dx{
     float: left;
-    width: 30%;
+    width: 28%;
 
-    height: 100px;
-    background-color: red;
+    /* height: 100px; */
+    /* background-color: red; */
 
 }
 
-#operazioni .col-sx .img-opera{
-    object-fit: cover;
+#operazioni  .img-opera{
+    object-fit: contain;
     width: 100%;
-    height: 100px;
+    /* height: 100px; */
 }
 
-#operazioni .col-sx .img{
-    width: 100%;
+
+#operazioni .caption-opt p{
+    margin-top: 20px;
     
 }
+
+
 
 
 
