@@ -182,19 +182,19 @@ header ul li a{
     margin-left: 8%;
 }
 
-.row .title-col{
+#offerts .row .title-col{
     text-align: center;
     padding: 5px 0;
     border: solid 1px #d0d0d3;
 }
 
-.row .bordi-col{
+.bordi-col{
     border: solid 1px #d0d0d3;
     border-top: 0px;
 }
 
 
-.row .header-col{
+#offerts .row .header-col{
     padding: 30px;
 }
 
@@ -202,74 +202,112 @@ h3{
     font-size: 25px;
 }
 
-.row .header-col h5{
-    padding: 10px 0;
+#offerts .row .header-col h5{
+    margin-top: 10px;
+    margin-bottom: 7px;
+    
 }
 
-.row .header-col span{
+
+#offerts .row .header-col span{
     font-size: 15px;
     color: #84919b;
 }
 
-.row .list-col ul{
+#offerts .row .list-col ul{
     padding: 30px;
     font-size: 13px;
     list-style-type: none;
 }
 
-.row .list-col ul li{
+#offerts .row .list-col ul li{
     padding: 7px 0;
 }
 
-.row .btn-col{
+#offerts .row .btn-col{
     text-align: center;
     padding: 0 30px;
 }
 
-.row .btn-col .btn.blue{
+#offerts .row .btn-col .btn.blue{
     padding: 6px 43px;
 
 }
 
-.row .list-link{
+#offerts .row .list-link{
     padding: 0 30px;
     margin: 20px 0;
     font-size: 13px;
 
 }
 
-.row h5{
-    margin-top: 20px;
-    padding: 0 30px;
+#offerts .bordi-col h5{
+    margin-left: 30px;
 }
 
-.row .list-col.low{
+
+
+#offerts .row .list-col.low{
     margin-bottom: 50px;
 }
 
 /* entreprise */
 
+#entreprise{
+    margin-bottom: 100px;
+}
+
+
 #entreprise .team{
     width: 100%;
     height: 35px;
-    background-color: red;
+    /* background-color: red; */
     text-align: center;
     padding: 5px;
+    border: solid 1px #d0d0d3;
 }
 
 #entreprise .col-sx{
     float: left;
     width: 70%;
     height: 200px;
-    background-color: yellow;
+    /* background-color: yellow; */
+    padding: 30px;
+}
+
+#entreprise .col-sx h5{
+    margin: 10px 0;
+}
+
+#entreprise .col-sx span{
+    font-size: 13px;
 }
 
 #entreprise .col-dx{
     float: left;
     width: 30%;
     height: 200px;
-    background-color: blue;
+    /* background-color: blue; */
 }
+
+#entreprise .entreprise-btn{
+    padding: 30px;
+    text-align: center;
+}
+
+#entreprise .col-dx .btn.blue{
+    padding: 6px 43px;
+
+}
+
+
+
+
+
+
+  
+
+
 
 
 
