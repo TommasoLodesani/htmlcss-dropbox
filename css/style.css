@@ -65,7 +65,7 @@ header ul li{
 
 header ul li a{
     text-decoration: none;
-    font-size: 15px;
+    font-size: 13px;
 
 }
 
@@ -79,6 +79,7 @@ header ul li a{
     padding: 4px 15px;
     text-align: center;
     text-decoration: none;
+    font-size: 13px;
 }
 
 .btn.blue{
@@ -144,13 +145,21 @@ header ul li a{
 
    /* checkbox */
 
+
+   
 #offerts .container-center{
     padding-top: 150px;
+    padding-bottom: 80px;
 }
 
+#offerts h2{
+    font-size: 40px;
+}
+
+
 #offerts .checkbox{
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 40px;
 
 }
 
@@ -160,8 +169,8 @@ header ul li a{
     float: left;
     width: 28%;
     /* margin-left: 8%; */
-    height: 500px;
-    background-color: yellow;
+    /* height: 885px; */
+    /* background-color: yellow; */
 
 }
 
@@ -176,7 +185,12 @@ header ul li a{
 .row .title-col{
     text-align: center;
     padding: 5px 0;
-    border: solid 1px black;
+    border: solid 1px #d0d0d3;
+}
+
+.row .bordi-col{
+    border: solid 1px #d0d0d3;
+    border-top: 0px;
 }
 
 
@@ -204,8 +218,59 @@ h3{
 }
 
 .row .list-col ul li{
-    padding: 5px 0;
+    padding: 7px 0;
 }
+
+.row .btn-col{
+    text-align: center;
+    padding: 0 30px;
+}
+
+.row .btn-col .btn.blue{
+    padding: 6px 43px;
+
+}
+
+.row .list-link{
+    padding: 0 30px;
+    margin: 20px 0;
+    font-size: 13px;
+
+}
+
+.row h5{
+    margin-top: 20px;
+    padding: 0 30px;
+}
+
+.row .list-col.low{
+    margin-bottom: 50px;
+}
+
+/* entreprise */
+
+#entreprise .team{
+    width: 100%;
+    height: 35px;
+    background-color: red;
+    text-align: center;
+    padding: 5px;
+}
+
+#entreprise .col-sx{
+    float: left;
+    width: 70%;
+    height: 200px;
+    background-color: yellow;
+}
+
+#entreprise .col-dx{
+    float: left;
+    width: 30%;
+    height: 200px;
+    background-color: blue;
+}
+
 
 
 
