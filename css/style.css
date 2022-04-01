@@ -74,6 +74,8 @@ header ul li a{
     padding-right: 10px;
 }
 
+/* BOTTONI STILE */
+
 .btn{
     color: white;
     padding: 4px 15px;
@@ -84,6 +86,12 @@ header ul li a{
 
 .btn.blue{
     background-color: #0061fe;
+}
+
+.btn.white{
+    background-color: white;
+    color: black;
+    border: solid 1px black;
 }
 
 /* jumbotron */
@@ -241,7 +249,7 @@ h3{
 
 }
 
-#offerts .bordi-col h5{
+#offerts .bordi-col .h5{
     margin-left: 30px;
 }
 
@@ -297,6 +305,41 @@ h3{
 
 #entreprise .col-dx .btn.blue{
     padding: 6px 43px;
+
+}
+
+/* section partner */
+
+#partner .col-sx{
+    float: left;
+    width: 50%;
+    margin-right: 5%;
+    object-fit: contain;
+    /* background-color: red; */
+}
+
+#partner .col-dx{
+    float: left;
+    width: 45%;
+    /* height: 400px; */
+    /* background-color: blue; */
+}
+
+#partner .col-sx img{
+   max-width: 100%;
+   
+}
+
+#partner .col-dx .text-col{
+    padding-top: 40px;
+}
+
+#partner .col-dx .text-col p{
+    margin-top: 20px;
+}
+
+#partner .col-dx .btn-col{
+    margin-top: 20px;
 
 }
 
