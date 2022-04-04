@@ -156,12 +156,12 @@ header ul li a{
     float: left;
     width: 60%;
     padding-top: 40px;
-   object-fit: cover;
     
 }
 
 #jumbo img{
     width: 100%;
+    object-fit: cover;
 }
 
 
@@ -463,7 +463,7 @@ header ul li a{
     color: #0061ff;
 }
 
-/* sezione loghi */
+/* sezione carousel */
 
 #tab-loghi{
     width: 100%;
