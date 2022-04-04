@@ -17,7 +17,13 @@ body{
 }
 
 .container-center{
-    width: 70%;
+    width: 65%;
+    margin: auto;
+    max-width: 1180px;
+}
+
+.container-large{
+    width: 80%;
     margin: auto;
     max-width: 1180px;
 
@@ -126,7 +132,7 @@ header ul li a{
 #jumbo .col-sx-jumbo{
     float: left;
     width: 30%;
-    margin-right: 10%;
+    margin-right: 5%;
     
 }
 
@@ -156,8 +162,9 @@ header ul li a{
 
 #jumbo .col-dx-jumbo{
     float: left;
-    width: 60%;
+    width: 65%;
     padding-top: 40px;
+    /* margin-top: 30px; */
     
 }
 
@@ -250,8 +257,17 @@ header ul li a{
     color: #84919b;
 }
 
+
+#offerts .row .line{
+    width: 15%;
+    color: #d0d0d3;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+
 #offerts .row .list-col ul{
-    padding: 30px;
+    padding: 10px 30px;
     font-size: 13px;
     list-style-type: none;
 }
@@ -261,14 +277,9 @@ header ul li a{
 }
 
 #offerts .row .btn-col{
-    /* text-align: center; */
     padding: 0 30px;
 }
 
-/* #offerts .row .btn-col .btn.blue{
-    padding: 6px 37px;
-
-} */
 
 #offerts .row .list-link{
     padding: 0 30px;
@@ -281,11 +292,6 @@ header ul li a{
     color: #0061fe;
 }
 
-#offerts .row .line{
-    width: 100%;
-    color: black;
-    font-size: 30px;
-}
 
 #offerts .list-col.low li i{
     color: #0061fe;
@@ -348,7 +354,7 @@ header ul li a{
 }
 
 #entreprise .col-dx .btn.blue{
-    padding: 6px 37px;
+    padding: 6px 27px;
 
 }
 
@@ -537,7 +543,7 @@ header ul li a{
 #tab-loghi .big-col{
     float: left;
     width: 40%;
-    height: 400px;
+    height: 64vh;
     overflow-y: auto;
     /* height: 400px; */
     /* background-color: blue; */
@@ -662,11 +668,7 @@ footer{
     padding-bottom: 20px;
 }
 
-footer .container-footer{
-    width: 80%;
-    margin: auto;
-    max-width: 1180px;
-}
+
 
 footer .col{
     float: left;
