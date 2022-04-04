@@ -8,11 +8,6 @@ body{
     font-family: 'Open Sans', sans-serif
 }
 
-a {
-    color: black;
-
-
-}
 
 .row::after{
     content: "";
@@ -29,7 +24,7 @@ a {
 }
 
  /* STILE H */
- h2{
+h2{
     font-size: 35px;
 }
 
@@ -152,6 +147,10 @@ header ul li a{
 
 }
 
+#jumbo .arrow a{
+    color: black;
+}
+
 
 #jumbo .col-dx-jumbo{
     float: left;
@@ -179,12 +178,6 @@ header ul li a{
     padding-bottom: 80px;
 }
 
-
-#offerts .checkbox{
-    padding-top: 50px;
-    padding-bottom: 40px;
-
-}
 
    /* colonne */
     
@@ -219,6 +212,26 @@ header ul li a{
 
 #offerts .row .header-col{
     padding: 30px;
+
+}
+
+
+/* .checkbox */
+
+#offerts .checkbox{
+    padding-top: 50px;
+    padding-bottom: 40px;
+
+}
+
+
+#offerts .checkbox input{
+    cursor: pointer;
+}
+
+#offerts .checkbox .right-check {
+    margin-left: 10px;
+ 
 }
 
 
